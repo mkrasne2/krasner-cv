@@ -5,7 +5,8 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
-
+import avatar1 from '../assets/avatar1.jpeg'
+import cover1 from '../assets/cover1.jpeg'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
@@ -39,7 +40,7 @@ const Home = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={siteConfig.siteCover}
+        heroImg={cover1}
         
       />
 
@@ -49,7 +50,7 @@ const Home = ({ className, location }) => {
             <Col xs={4} className='avatar'>
               <img
                 className='avatar__image'
-                src={withPrefix(siteConfig.authorAvatar)}
+                src={avatar1}
                 alt='user avatar'
               />
               <h1>Hi! I'm Mark </h1>

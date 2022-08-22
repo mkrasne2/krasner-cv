@@ -7,12 +7,11 @@ module.exports = {
     author: config.authorName,
     ...config
   },
-  pathPrefix: __GATSBY_IPFS_PATH_PREFIX__,
+  pathPrefix: config.pathPrefix,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-ipfs`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
