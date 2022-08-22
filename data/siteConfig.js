@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Mark!',
+  siteTitle: 'Web3 Developer & Blockchain Enthusiast',
   siteDescription: `Self-taught Web3 developer, blockchain enthusiast, and decentralization advocate`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Mark Krasner',
