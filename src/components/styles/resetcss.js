@@ -41,6 +41,8 @@ export default createGlobalStyle`
     display: none;
   }
   a {
+    text-decoration: none;
+    color: #FF69B4;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
   }

@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.org/santosfrancisco/gatsby-starter-cv.svg?branch=master)](https://travis-ci.org/santosfrancisco/gatsby-starter-cv)
-[![GitHub version](https://badge.fury.io/gh/santosfrancisco%2Fgatsby-starter-cv.svg)](https://badge.fury.io/gh/santosfrancisco%2Fgatsby-starter-cv)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -11,7 +7,8 @@
   Gatsby's CV starter
 </h1>
 
-Create your resume in a few minutes with this totally responsive starter using React. Show off your skills, work experiences and activities in github.
+Create your resume in a few minutes with this totally responsive starter using React. Show off your skills, work experiences and activities in github. This is an 
+altered fork of https://github.com/santosfrancisco/gatsby-starter-cv
 
 ### Sections
 - About
@@ -94,17 +91,16 @@ Update the configuration file with your data. The configuration file is in ```da
 
 ```js
   module.exports = {
-    siteTitle: 'Hi! I\'m Francisco!',
-    siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+    siteTitle: 'Hi! I\'m Mark!',
+    siteDescription: `Self-taught Web3 developer, blockchain enthusiast, and decentralization advocate`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
-    authorName: 'Francisco Santos',
-    twitterUsername: '_franciscodf',
-    githubUsername: 'santosfrancisco',
-    authorAvatar: '/images/avatar.jpeg',
-    authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-      In 2012 I started working as a support technician and I approached the developers.
-      In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-      I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+    authorName: 'Mark Krasner',
+    twitterUsername: 'stochasticgood',
+    githubUsername: 'mkrasne2',
+    authorAvatar: '/images/avatar1.jpeg',
+    authorDescription: `Self-taught full-stack Web3 developer, passionate about reducing usability friction to onboard the next wave of mainstream blockchain use cases. <br />
+       <br />
+      I currently freelance as a fullstack developer and mainly work with <strong>Solidity, Javascript, NodeJS, and React.</strong>`,
     skills: [
       {
         name: 'HTML',
@@ -130,73 +126,28 @@ Update the configuration file with your data. The configuration file is in ```da
         name: 'Git',
         level: 70
       },
-      /* more skills here */
+      {
+      name: 'Solidity',
+      level: 60
+    }
     ],
     jobs: [
       /* more jobs here */
       {
-        company: "Gympass",
-        begin: {
-          month: 'sep',
-          year: '2019'
-        },
-        duration: null,
-        occupation: "Frontend developer",
-        description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+       
     
-      },  {
-        company: "Lendico",
-        begin: {
-          month: 'apr',
-          year: '2018'
-        },
-        duration: null,
-        occupation: "Frontend developer",
-        description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-    
-      }, {
-        company: "Anapro",
-        begin: {
-          month: 'dec',
-          year: '2016'
-        },
-        duration: '1 yr e 5 mos',
-        occupation: "Fullstack developer",
-        description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-      }, {
-        company: "Anapro",
-        begin: {
-          month: 'set',
-          year: '2012'
-        },
-        duration: '4 yrs e 3 mos',
-        occupation: "Support Technician",
-        description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-    
-      },
+      },  
     ],
-    portifolio: [
-      {
-        image: "/images/gatsby-starter-cv.png",
-        description: "Gatsby starter CV template",
-        url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-      },
-      {
-        image: "/images/awesome-grid.png",
-        description: "Responsive grid for ReactJS",
-        url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-      },
-      /* more portifolio items here */
-    ],
+    
     social: {
-      twitter: "https://twitter.com/_franciscodf",
-      linkedin: "https://www.linkedin.com/in/santos-francisco",
-      github: "https://github.com/santosfrancisco",
-      email: "yoshi.df@gmail.com"
+      twitter: "https://twitter.com/stochasticgood",
+      linkedin: "https://www.linkedin.com/in/krasnermark/",
+      github: "https://github.com/mkrasne2",
+      email: "mzkrasner@gmail.com"
     },
-    siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+    siteUrl: 'https://mkrasne2.github.io/krasner-cv',
     pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-    siteCover: '/images/cover.jpeg',
+    siteCover: '/images/cover1.jpeg',
     googleAnalyticsId: 'UA-000000000-1',
     background_color: '#ffffff',
     theme_color: '#25303B',
@@ -209,15 +160,12 @@ Update the configuration file with your data. The configuration file is in ```da
         label: 'Home',
         url: '/',
       },
-      {
-        label: 'Portifolio',
-        url: '/portifolio',
-      }
+      
     ]
   }
 
 ```
 
-## It was useful?
 
-<a href="https://www.buymeacoffee.com/santosfrancisco" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" width="180px" ></a>
+
+

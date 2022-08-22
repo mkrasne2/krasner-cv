@@ -1,15 +1,14 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Hi! I\'m Mark!',
+  siteDescription: `Self-taught Web3 developer, blockchain enthusiast, and decentralization advocate`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorName: 'Mark Krasner',
+  twitterUsername: 'stochasticgood',
+  githubUsername: 'mkrasne2',
+  authorAvatar: '/images/avatar1.jpeg',
+  authorDescription: `Self-taught full-stack Web3 developer, passionate about reducing usability friction to onboard the next wave of mainstream blockchain use cases. <br />
+     <br />
+  I currently freelance as a fullstack developer and mainly work with <strong>Solidity, Javascript, NodeJS, and React.</strong>`,
   skills: [
     {
       name: 'HTML',
@@ -35,7 +34,10 @@ module.exports = {
       name: 'Git',
       level: 70
     },
-    /* more skills here */
+    {
+      name: 'Solidity',
+      level: 60
+    }
   ],
   jobs: [
     /* more jobs here */
@@ -80,28 +82,15 @@ module.exports = {
   
     },
   ],
-  portifolio: [
-    {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-    },
-    /* more portifolio items here */
-  ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/stochasticgood",
+    linkedin: "https://www.linkedin.com/in/krasnermark/",
+    github: "https://github.com/mkrasne2",
+    email: "mzkrasner@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteUrl: 'https://mkrasne2.github.io/krasner-cv',
+  pathPrefix: '/krasner-cv', // Note: it must *not* have a trailing slash.
+  siteCover: '/images/cover1.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
@@ -114,9 +103,5 @@ module.exports = {
       label: 'Home',
       url: '/',
     },
-    {
-      label: 'Portifolio',
-      url: '/portifolio',
-    }
   ]
 }

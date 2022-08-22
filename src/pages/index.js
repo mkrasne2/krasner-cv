@@ -40,7 +40,7 @@ const Home = ({ className, location }) => {
 
       <Hero
         heroImg={siteConfig.siteCover}
-        title={title}
+        
       />
 
       <Wrapper className={className} >
@@ -52,6 +52,7 @@ const Home = ({ className, location }) => {
                 src={withPrefix(siteConfig.authorAvatar)}
                 alt='user avatar'
               />
+              <h1>Hi! I'm Mark </h1>
               <div className="social">
                 {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                   <FaGithub className="social-icon" size="32" />

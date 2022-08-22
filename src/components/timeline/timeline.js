@@ -4,33 +4,37 @@ import { config } from 'react-awesome-styled-grid'
 import siteConfig from '../../../data/siteConfig'
 
 const Timeline = ({ className }) => (
-  <div className={className}>
-    <h1>Experience</h1>
-    {siteConfig.jobs && siteConfig.jobs.map(job => (
-      <article 
-        key={job.begin.month + job.begin.year} 
-        className='timeline__item animate-on-scroll'
-      >
-        <div className="inner">
-          <span className="timeline__date">
-            <span className="timeline__month">{job.begin.month}</span>
-            <span className="timeline__year">{job.begin.year}</span>
-          </span>
-          <div className="timeline__card">
-            <h2 className='timeline__card-title'>
-              {job.company
-                ? `${job.occupation} at ${job.company}`
-                : `${job.occupation}`} 
-              <br />
-              <small className='timeline__card-title--small'>
-                ({job.duration || 'present'})
-              </small>
-            </h2>
-            <p>{job.description}</p>
-          </div>
-        </div>
-      </article>
-    ))}
+  <div >
+    <h1>Special Interests</h1>
+   
+            
+          <p><small>I am entirely enthralled by and dedicated to the ethos of decentralization - as such, I've been 
+            teaching myself Solidity and smart contract deployment processes, how to interact with contracts on test networks using 
+            Ethers.js/Web3.js in React, and even how to host decentralized frontends on IPFS. I am especially interested in projects that
+            involve: <br></br><br></br>
+            <ul>
+              <li>Decentralized identity or credentialing</li>
+              <li>Proof of Participation/Proof of Activity</li>
+              <li>Generative on-chain NFT art</li>
+              <li>Transaction privacy</li>
+            </ul>
+           
+            </small></p>
+     <p><small>I've built and launched several of my own projects on testnets (some tutorial-lead, most self-directed) that demonstrate these 
+       curiosities I outlined above:
+       <br></br><br></br>
+       <ul>
+         <li><a href="https://mkrasne2.github.io/svg-nfts/"target="_blank">Generative SVG NFTs</a> </li>
+         <li><a href="https://mkrasne2.github.io/fundme/"target="_blank">GoFundMe using Clonefactory Method</a> </li>
+         <li><a href="https://mkrasne2.github.io/web3-lottery/"target="_blank">Web3 Lottery with VRF Oracle</a> </li>
+         <li><a href="https://mkrasne2.github.io/decentra-blog/"target="_blank">Decentralized Blog</a> </li>
+       </ul>
+       
+       </small></p>       
+            <p><small>...and more below</small></p>
+              
+           
+       
   </div>
 )
 
